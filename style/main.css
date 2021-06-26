@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(277,157,206,0.6); /*sets background colour of the main body of the page, 60% opacity is also added to make the next more read able*/
+}
+
+h1{
+    color: whitesmoke; /*sets the colour of the header text*/
+    text-align: center; /*aligns the text to the center of the page*/
+    font-family: monospace;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: left;
+    font-family: monospace;
+
+}
+
+p{
+    font-family: monospace; /*chooses the font family to be used in the main paragraph text*/
+    font-size: 20px; 
+}
+
+img{
+    margin: auto;
+}
+
+.hobbies{
+    text-align: left;
+    height: fit-content; /*sets the height of the hobbies div to fit whatever is needed to keep a width of 800 pixels*/
+    width: 800px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.music{
+    text-align: left;
+    height: fit-content;
+    width: 1000px;
+}
+
+.row{
+    display: flex; /*uses flex to aling 3 images horizonally on the same plane*/
+}
+
+.column{
+    flex:33.33%;
+    padding: 5px;
+}
