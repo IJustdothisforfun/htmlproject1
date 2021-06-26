@@ -54,14 +54,18 @@ a{
     padding: 50px; /*extra padding looks better apparently :shrug:*/
 }
 
-.button{ /*adds and styles a button for changing pages */
+.button{ /*adds and styles a button for changing pages, this button is a pill button */
     background-color: #D0E3C4;
     border: none;
-    color: whitesmoke;
-    padding: auto;
+    color: #0D0A0B;
+    padding: 0.25em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 4px; /*rounds out the corners of the button to make it less scary*/
+    margin: 4px 2px;
+    cursor: pointer; /*changes cursor to a pointer when mousing over the button*/
+    border-radius: 16px; /*rounds out the corners of the button to make it less scary*/
+    height: 25px;
+    width: 150px;
 }
