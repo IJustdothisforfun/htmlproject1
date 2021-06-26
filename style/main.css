@@ -24,6 +24,10 @@ img{
     margin: auto;
 }
 
+a{
+    text-decoration: none; /*removes yucky underline from links*/
+}
+
 .hobbies{
     text-align: left;
     height: fit-content; /*sets the height of the hobbies div to fit whatever is needed to keep a width of 800 pixels*/
@@ -48,4 +52,16 @@ img{
     max-width: 250px; /*shirnks to fit the space just below the text*/
     max-height: 100%;
     padding: 50px; /*extra padding looks better apparently :shrug:*/
+}
+
+.button{ /*adds and styles a button for changing pages */
+    background-color: #D0E3C4;
+    border: none;
+    color: whitesmoke;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px; /*rounds out the corners of the button to make it less scary*/
 }
