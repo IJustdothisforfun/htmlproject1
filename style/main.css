@@ -34,7 +34,7 @@ a{
 .hobbies{
     text-align: center;
     height: fit-content; /*sets the height of the hobbies div to fit whatever is needed to keep a width of 800 pixels*/
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 
@@ -63,8 +63,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D0E3C4;
-    color: #0D0A0B;
+    background-color: whitesmoke;
     padding: 0.25em;
     text-align: center;
     font-size: 16px;
