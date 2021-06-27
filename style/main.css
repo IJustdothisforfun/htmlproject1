@@ -10,7 +10,7 @@ h1{
 
 h2{
     color: whitesmoke;
-    text-align: left;
+    text-align: center;
     font-family: monospace;
 
 }
@@ -18,10 +18,13 @@ h2{
 p{
     font-family: monospace; /*chooses the font family to be used in the main paragraph text*/
     font-size: 20px; 
+    text-align: center; 
 }
 
 img{
-    margin: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
@@ -29,7 +32,7 @@ a{
 }
 
 .hobbies{
-    text-align: left;
+    text-align: center;
     height: fit-content; /*sets the height of the hobbies div to fit whatever is needed to keep a width of 800 pixels*/
     width: 800px;
     padding: 20px;
@@ -37,9 +40,10 @@ a{
 }
 
 .music{
-    text-align: left;
-    height: fit-content;
-    width: 1000px;
+    text-align: center;
+    height: fit-content; 
+    width: 50%; /*centers the images on the page properly*/
+    margin: auto;
 }
 
 .row{
@@ -48,24 +52,32 @@ a{
 
 .column{
     object-fit: contain;
-    flex:33.33%;
-    max-width: 250px; /*shirnks to fit the space just below the text*/
+    flex: 33.3%;
+    max-width: 400px; /*shirnks to fit the space just below the text*/
     max-height: 100%;
-    padding: 50px; /*extra padding looks better apparently :shrug:*/
+    padding: 25px; /*extra padding looks better apparently :shrug:*/
+    width: 50%;
+    margin: auto;
 }
 
 .button{ /*adds and styles a button for changing pages, this button is a pill button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #D0E3C4;
-    border: none;
     color: #0D0A0B;
     padding: 0.25em;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer; /*changes cursor to a pointer when mousing over the button*/
     border-radius: 16px; /*rounds out the corners of the button to make it less scary*/
     height: 25px;
     width: 150px;
+    margin: 0 auto; /*centers the button*/
+}
+
+.main{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
