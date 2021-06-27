@@ -12,7 +12,7 @@ h2{
     color: whitesmoke;
     text-align: center;
     font-family: monospace;
-
+    margin: auto;
 }
 
 p{
@@ -34,9 +34,8 @@ a{
 .hobbies{
     text-align: center;
     height: fit-content; /*sets the height of the hobbies div to fit whatever is needed to keep a width of 800 pixels*/
-    width: 800px;
-    padding: 20px;
-    margin: 5px;
+    width: 50%;
+    margin: auto;
 }
 
 .music{
